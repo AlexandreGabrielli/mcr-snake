@@ -7,9 +7,9 @@ import java.awt.*;
 /**
  * this class implement a color to a snake segment
  */
-public class ColorSnakeSegment extends SnakeSegment {
+public abstract class ColorSnakeSegment extends SnakeSegment {
     //TODO : christoph
-    public static final String info = "JE SUIS UN SEGMENT de couleur ";
+    private static final String info = "JE SUIS UN SEGMENT de couleur ";
 
     /**
      * color of this specific segemnt
